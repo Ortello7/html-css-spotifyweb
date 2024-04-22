@@ -10,4 +10,23 @@ header{
     color: white;
     height: 100vh;
     width: 20vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.header-of-main{
+    background-color: darkmagenta;
+    height: 10vh;
+    
+}
+
+button#button-upgrade{
+   margin-left: 70.8rem;
+   background-color: darkmagenta;
+   border-color: white;
+   padding: 0 .5rem;
+   border-radius: 30%;
+   margin-top: 1rem;
 }
