@@ -5,28 +5,51 @@
     box-sizing: border-box;
 }
 
+.clearfix::after{
+    content: ''; 
+    clear: both;
+    display: block;
+}
+
 header{
     background-color: black;
-    color: white;
-    height: 100vh;
-    width: 20vh;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    float: left;
+    width: 180px;
 }
 
-div.header-of-main{
+header,
+main{
+    height: calc(100vh - 100px);
+}
+
+main{
     background-color: darkmagenta;
-    height: 10vh;
-    
+    float: left;
+    width: calc(100% - 180px);
 }
 
-button#button-upgrade{
-   margin-left: 70.8rem;
-   background-color: darkmagenta;
-   border-color: white;
-   padding: 0 .5rem;
-   border-radius: 30%;
-   margin-top: 1rem;
+footer{
+    background-color: grey;
+    height: 100px;
+}
+
+h1{
+    color: white;
+}
+
+li.li-item{
+    color: whitesmoke;
+}
+
+li.li-title{
+    color: white;
+}
+
+@media screen and (max-width: 576px) {
+    header{
+        width: 80px;
+    }
+    main{
+        width: calc(100% - 80px);
+    }   
 }
