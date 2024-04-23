@@ -23,13 +23,13 @@ main{
 }
 
 main{
-    background-color: darkmagenta;
+    background-color: #141922;
     float: left;
     width: calc(100% - 180px);
 }
 
 footer{
-    background-color: gray;
+    background-color: #282828;
     height: 100px;
 }
 
@@ -38,11 +38,24 @@ h1{
 }
 
 li.li-item{
-    color: gray;
+    color: #6b6b6b;
 }
 
 li.li-title{
     color: white;
+}
+
+div.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+}
+
+div.container1 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 576px) {
