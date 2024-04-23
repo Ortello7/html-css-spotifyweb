@@ -29,7 +29,7 @@ main{
 }
 
 footer{
-    background-color: grey;
+    background-color: gray;
     height: 100px;
 }
 
@@ -38,7 +38,7 @@ h1{
 }
 
 li.li-item{
-    color: whitesmoke;
+    color: gray;
 }
 
 li.li-title{
