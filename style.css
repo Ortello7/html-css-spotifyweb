@@ -51,5 +51,8 @@ li.li-title{
     }
     main{
         width: calc(100% - 80px);
-    }   
+    }
+    ul.ul2{
+        display: none;
+    }  
 }
