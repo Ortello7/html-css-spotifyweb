@@ -58,6 +58,17 @@ div.container1 ul{
     flex-direction: column;
 }
 
+div.container2{
+    display: inline;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+
+nav.nav3 li{
+    color: #6b6b6b;
+    list-style-type: none;
+}
+
 @media screen and (max-width: 576px) {
     header{
         width: 80px;
