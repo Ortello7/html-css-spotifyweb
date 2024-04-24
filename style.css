@@ -38,6 +38,11 @@ main > div.banner{
     position: fixed;
 }
 
+main > div.header-of-main{
+    height: 100px;
+    width: 100%; 
+}
+
 p{
     font-size: 3rem;
     padding: 5rem;
@@ -46,6 +51,17 @@ p{
 footer{
     background-color: #282828;
     height: 100px;
+    display: flex;
+}
+
+footer > div.song-name{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer > div.play-bar{
+
 }
 
 h1{
