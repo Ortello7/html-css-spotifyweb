@@ -81,7 +81,7 @@ footer > div.play-bar{
 
 h1{
     color: white;
-    padding: 1rem;
+    padding: .5rem;
 }
 
 li.li-item{
@@ -126,6 +126,18 @@ ul.ul3{
 nav.nav2{
     padding-top: 1rem;
 }
+
+div.song-name{
+    padding-left: 1rem;
+}
+
+div.sound-bar{
+    background-color: white;
+    border-radius: 1rem;
+    height: 1.5px;
+    width: 10%;
+}
+
 
 @media screen and (max-width: 576px) {
     header{
