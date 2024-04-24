@@ -109,7 +109,10 @@ ul.ul3 li{
     main{
         width: calc(100% - 80px);
     }
-    ul.ul2{
+    ul.ul1 > li.li-item{
         display: none;
-    }  
+    }
+    ul.ul2 > li.li-item{
+        display: none;
+    }
 }
