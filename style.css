@@ -61,7 +61,11 @@ footer > div.song-name{
 }
 
 footer > div.play-bar{
-
+    margin: auto;
+    background-color: white;
+    border-radius: 1rem;
+    height: 2.5px;
+    width: 30%;
 }
 
 h1{
