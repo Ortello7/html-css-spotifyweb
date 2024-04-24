@@ -28,6 +28,7 @@ main{
     width: calc(100% - 180px);
     color: white;
     overflow-y: auto;
+    display: flex;
 }
 
 p{
@@ -65,7 +66,7 @@ div.container1 ul{
     flex-direction: column;
 }
 
-div.container2{
+div.banner{
     display: inline;
     flex-direction: row;
     margin-left: 1rem;
