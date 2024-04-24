@@ -50,6 +50,14 @@ main > div.header-of-main{
     width: 100%; 
 }
 
+button#button-upgrade{
+    border-radius: 1rem;
+    color: white;
+    background-color: #080b12;
+    padding: .5rem 1.5rem;
+    opacity: 1;
+}
+
 p{
     font-size: 1rem;
     padding: 3rem;
