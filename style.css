@@ -26,6 +26,13 @@ main{
     background-color: #141922;
     float: left;
     width: calc(100% - 180px);
+    color: white;
+    overflow-y: auto;
+}
+
+p{
+    font-size: 3rem;
+    padding: 5rem;
 }
 
 footer{
@@ -67,6 +74,10 @@ div.container2{
 nav.nav3 li{
     color: #6b6b6b;
     list-style-type: none;
+}
+
+ul.ul3 li{
+    padding: 1rem;
 }
 
 @media screen and (max-width: 576px) {
